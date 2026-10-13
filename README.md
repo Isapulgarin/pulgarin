@@ -172,6 +172,16 @@ Actualmente refuerzo mis conocimientos mediante ejercicios prácticos y proyecto
 - Explorar soluciones de innovación tecnológica y asistentes virtuales.
 - Crear recursos y contenidos que faciliten el aprendizaje de la tecnología.
 
+  
+
+---
+
+##📊 Estadísticas de GitHub
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=lillystarfull&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&locale=es" alt="Estadísticas de GitHub" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lillystarful&layout=compact&theme=tokyonight&hide_border=true&locale=es" alt="Lenguajes más utilizados" height="180"/>
+</p>
+<p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=lillystarful&theme=tokyonight&hide_border=true&locale=es" alt="Racha de contribuciones de GitHub"/> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=lillystarful&style=for-the-badge&color=blueviolet" alt="Visitas al perfil"/> </p>
 ---
 
 <p align="center">
