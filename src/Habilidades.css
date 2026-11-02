@@ -1,0 +1,77 @@
+
+.habilidades {
+    padding: 150px 0 70px;
+    background-color: #F8F5FF;
+    scroll-margin-top: 110px;
+}
+
+
+.habilidades h2 {
+    color: #4E2FB0;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+
+.tarjeta-habilidad {
+    height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #E7DFF7;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px rgba(78, 47, 176, 0.10);
+    transition: all 0.3s ease;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.tarjeta-habilidad:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(78, 47, 176, 0.20);
+    border-color: #A48AE0;
+}
+
+.tarjeta-habilidad .card-body {
+    padding: 30px 20px;
+}
+
+
+.tarjeta-habilidad .card-img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.tarjeta-habilidad h5 {
+    color: #4E2FB0;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+
+.tarjeta-habilidad .card-text {
+    color: #62577B;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+    .habilidades {
+        padding: 120px 15px 45px;
+    }
+
+    .habilidades h2 {
+        font-size: 29px;
+        margin-bottom: 30px;
+    }
+
+    .tarjeta-habilidad .card-body {
+        padding: 25px 15px;
+    }
+}

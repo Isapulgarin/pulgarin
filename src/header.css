@@ -1,0 +1,106 @@
+
+:root {
+    --color1: #E7DFF7;
+    --color2: #C6B4EE;
+    --color3: #A48AE0;
+    --color4: #7B5FD1;
+    --color5: #4E2FB0;
+}
+
+
+.header-portfolio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    margin: 0;
+    padding: 12px 0;
+    background: linear-gradient(120deg, var(--color5), var(--color4));
+    box-shadow: 0 4px 15px rgba(78, 47, 176, 0.25);
+}
+
+
+.header-portfolio .navbar {
+    padding: 0;
+}
+
+.brand-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.brand-name {
+    color: var(--color1);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.brand-name:hover {
+    color: #ffffff;
+}
+
+
+.brand-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.brand-contact span {
+    color: var(--color1);
+    font-size: 12px;
+}
+
+.brand-contact i {
+    color: var(--color2);
+    margin-right: 6px;
+}
+
+
+.header-portfolio .navbar-nav {
+    gap: 8px;
+}
+
+.header-portfolio .nav-link {
+    color: var(--color1) !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.header-portfolio .nav-link:hover,
+.header-portfolio .nav-link.active {
+    background-color: var(--color2);
+    color: var(--color5) !important;
+}
+
+
+.header-portfolio .navbar-toggler {
+    border: 1px solid var(--color2);
+}
+
+.header-portfolio .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+.header-portfolio .navbar-toggler:focus {
+    box-shadow: 0 0 0 3px rgba(231, 223, 247, 0.25);
+}
+
+@media (max-width: 991px) {
+    .header-portfolio .navbar-collapse {
+        background-color: var(--color5);
+        padding: 15px;
+        margin-top: 15px;
+        border-radius: 12px;
+    }
+
+    .header-portfolio .navbar-nav {
+        gap: 6px;
+    }
+}

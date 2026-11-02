@@ -1,0 +1,91 @@
+
+.introduccion {
+    width: 100%;
+    padding: 100px 0 80px;
+    margin-top: 0;
+    min-height: 650px;
+    background-color: #E7DFF7;
+    display: flex;
+    align-items: center;
+    scroll-margin-top: 110px;
+}
+
+
+.introduccion .row {
+    align-items: center;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 12px 15px rgba(78, 47, 176, 0.18));
+}
+
+/* Información personal */
+.introduccion-info {
+    padding: 25px;
+}
+
+.introduccion-info h2 {
+    color: #4E2FB0;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.introduccion-info h2::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 4px;
+    background-color: #7B5FD1;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.introduccion-info p {
+    color: #4E2FB0;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Diseño para celulares y tablets */
+@media (max-width: 768px) {
+    .introduccion {
+        padding: 100px 15px 45px;
+        min-height: auto;
+    }
+
+    .avatar {
+        max-width: 260px;
+        margin-bottom: 25px;
+    }
+
+    .introduccion-info {
+        padding: 10px;
+    }
+
+    .introduccion-info h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .introduccion-info h2::after {
+        margin: 10px auto;
+    }
+
+    .introduccion-info p {
+        font-size: 15px;
+        text-align: left;
+    }
+}

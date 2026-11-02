@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 130px;
+}
+
+body {
+    margin: 0;
+    padding-top: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+#root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --color1: #E7DFF7;
+    --color2: #C6B4EE;
+    --color3: #A48AE0;
+    --color4: #7B5FD1;
+    --color5: #4E2FB0;
+
+    --text: #4E2FB0;
+    --text-h: #4E2FB0;
+    --bg: #E7DFF7;
+    --border: #C6B4EE;
+    --accent: #7B5FD1;
+    --accent-bg: rgba(123, 95, 209, 0.15);
+    --accent-border: #A48AE0;
+
+   
+    --sans: 'Segoe UI', Roboto, sans-serif;
+    --heading: 'Segoe UI', Roboto, sans-serif;
+    --mono: Consolas, monospace;
+
+    font-family: var(--sans);
+    color: var(--text);
+    background-color: var(--bg);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1,
+h2 {
+    font-family: var(--heading);
+    color: var(--text-h);
+}
+
+p {
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        font-size: 16px;
+    }
+}
+section[id] {
+    scroll-margin-top: 110px;
+}

@@ -1,0 +1,97 @@
+
+.seccion-recomendaciones {
+    padding: 85px 0;
+    background-color: #E7DFF7;
+}
+
+.recomendaciones-encabezado {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.recomendaciones-subtitulo {
+    color: #7B5FD1;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.recomendaciones-encabezado h2 {
+    color: #4E2FB0;
+    font-size: 38px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.recomendaciones-encabezado p {
+    color: #62577B;
+    font-size: 16px;
+}
+
+.recomendacion-card {
+    height: 100%;
+    min-height: 280px;
+    background-color: white;
+    border: 1px solid #C6B4EE;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(78, 47, 176, 0.10);
+    transition: all 0.3s ease;
+}
+
+.recomendacion-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(78, 47, 176, 0.20);
+}
+
+.recomendacion-numero {
+    padding: 13px 20px;
+    color: white;
+    background: linear-gradient(135deg, #7B5FD1, #4E2FB0);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.recomendacion-contenido {
+    padding: 25px 22px;
+    text-align: center;
+}
+
+.recomendacion-icono {
+    color: #7B5FD1;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.recomendacion-contenido h5 {
+    color: #4E2FB0;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.recomendacion-cargo {
+    display: inline-block;
+    color: #7B5FD1;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.recomendacion-contenido p {
+    color: #62577B;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .seccion-recomendaciones {
+        padding: 55px 15px;
+    }
+
+    .recomendaciones-encabezado h2 {
+        font-size: 30px;
+    }
+}

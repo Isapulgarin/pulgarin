@@ -1,0 +1,83 @@
+.seccion-formulario-recomendaciones {
+    padding: 80px 15px;
+    background-color: #F8F5FF;
+}
+
+.formulario-encabezado {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.formulario-encabezado span {
+    color: #7B5FD1;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.formulario-encabezado h2 {
+    color: #4E2FB0;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.formulario-encabezado p {
+    color: #62577B;
+    font-size: 15px;
+}
+
+.formulario-recomendacion-card {
+    max-width: 650px;
+    margin: auto;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #D8CAF7;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(78, 47, 176, 0.12);
+}
+
+.formulario-recomendacion-card .form-label {
+    color: #4E2FB0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.formulario-recomendacion-card .form-control,
+.formulario-recomendacion-card .form-select {
+    border: 1px solid #C6B4EE;
+    border-radius: 10px;
+    padding: 12px;
+    color: #62577B;
+}
+
+.formulario-recomendacion-card .form-control:focus,
+.formulario-recomendacion-card .form-select:focus {
+    border-color: #7B5FD1;
+    box-shadow: 0 0 0 0.2rem rgba(123, 95, 209, 0.15);
+}
+
+.boton-recomendacion {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(90deg, #7B5FD1, #4E2FB0);
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.boton-recomendacion:hover {
+    background: #4E2FB0;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 576px) {
+    .formulario-recomendacion-card {
+        padding: 22px;
+    }
+
+    .formulario-encabezado h2 {
+        font-size: 28px;
+    }
+}
